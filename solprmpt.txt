@@ -1,0 +1,18 @@
+Generate the complete modified About.tsx React component code with the following two modifications applied to the provided source:
+
+1. **Font change for the list items** (Casting, Machining, Heat Treatment, Surface Treatment):  
+   Locate the `<ul className="space-y-4 pt-6">` block containing four `<li>` elements with text "Casting", "Machining", "Heat Treatment", "Surface Treatment".  
+   Change the text styling of these `<li>` elements to match the font style used for the "About Acumelt Pvt. Ltd." heading (the `SectionHeading` component's `title` prop).  
+   The target font is: `text-4xl md:text-5xl font-black tracking-tight text-zinc-950 dark:text-white` (or the exact classes applied to the heading; replicate those classes on each `<li>` text span, preserving the existing icon and layout structure).
+
+2. **Center alignment of "The Challenge / Solving Foundry Inefficiencies" section**:  
+   Find the `<div className="mb-32">` that contains the `SectionHeading` with `subtitle="The Challenge"` and `title="Solving Foundry Inefficiencies"`.  
+   Ensure the entire section – including the heading, the three-column grid, the icons, text, and all child elements – is centered both horizontally and, where appropriate, text-center.  
+   Apply `text-center` to the container and adjust grid alignment so columns are centered (e.g., `justify-items-center` on the grid container, or wrap each column item in a flex centering wrapper, but preserve the existing responsive grid structure).
+
+**Mandatory constraints:**
+- Do **not** remove, omit, or alter any existing content, imports, components, or functionality.
+- Preserve all `motion` animations, classes, and structure exactly except for the specified changes.
+- Output only the complete, runnable About.tsx code block with no extra commentary, explanations, or markdown wrappers beyond the code itself.
+
+Use the original code as the base; apply modifications precisely as described.
